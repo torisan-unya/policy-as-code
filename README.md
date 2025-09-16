@@ -1,8 +1,3 @@
-承知いたしました。
-ご指示に基づき、パスを修正し、該当箇所にリンクを設定しました。以下をご確認ください。
-
----
-
 # 共創型社会実現プロジェクト - Policy-as-Code
 ### A project to realize a co-creative society through "Policy-as-Code"
 
