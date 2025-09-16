@@ -39,7 +39,7 @@ This project aims to realize a "co-creative society" where everyone can particip
 
 このリポジトリは、"Policy-as-Code" を実現するためのツールボックスです。
 
-*   **🤖 AIプロンプト集 ([`/policy-as-code/prompts/ja/`](./policy-as-code/prompts/ja/))**
+*   **🤖 AIプロンプト集 ([`/prompts/ja/`](./prompts/ja/))**
     *   政策課題の分析、論点の整理、条文案の生成などをAIに支援させるためのプロンプト集。
     *   *[ここにプロンプトの具体的な例や使い方を記述]*
 
