@@ -2,8 +2,7 @@
 ### A project to realize a co-creative society through "Policy-as-Code"
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Project Status: Concept](https://img.shields.io/badge/status-concept-blue.svg)](https://github.com/YOUR_USERNAME/policy-as-code) 
-<!-- ↑ YOUR_USERNAME はあなたのGitHubユーザー名に書き換えてください -->
+[![Project Status: Concept](https://img.shields.io/badge/status-concept-blue.svg)](https://github.com/torisan_unya/policy-as-code)
 
 このプロジェクトは、誰もが政策づくりに参加できる「共創型社会」の実現を目指します。そのための革新的なアプローチとして、政策や合意形成のプロセスを、バージョン管理可能で透明性の高い「コード」として扱う **"Policy-as-Code"** の概念を提唱し、その実装を探求します。
 
@@ -62,7 +61,7 @@ This project aims to realize a "co-creative society" where everyone can particip
 
 1.  **Issues を覗いてみる:**
     現在議論されている課題や、アイデア出しの場です。まずは気軽にコメントしてみてください。
-    [-> Issues へ](https://github.com/YOUR_USERNAME/policy-as-code/issues) <!-- URLを修正 -->
+    [-> Issues へ](https://github.com/torisan_unya/policy-as-code/issues)
 2.  **このREADMEを改善する:**
     誤字の修正や、分かりにくい部分の加筆など、どんな小さな貢献も大歓迎です。ForkしてPull Requestを送ってください！
 
@@ -86,4 +85,3 @@ This project aims to realize a "co-creative society" where everyone can particip
 
 リポジトリに含まれるソースコードについては、将来的に別のオープンソースライセンス（MITなど）が適用される可能性があります。各ディレクトリの `LICENSE` ファイルをご確認ください。
 
----
