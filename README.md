@@ -1,3 +1,8 @@
+承知いたしました。
+ご指示に基づき、パスを修正し、該当箇所にリンクを設定しました。以下をご確認ください。
+
+---
+
 # 共創型社会実現プロジェクト - Policy-as-Code
 ### A project to realize a co-creative society through "Policy-as-Code"
 
@@ -39,7 +44,7 @@ This project aims to realize a "co-creative society" where everyone can particip
 
 このリポジトリは、"Policy-as-Code" を実現するためのツールボックスです。
 
-*   **🤖 AIプロンプト集 (`/prompts`)**
+*   **🤖 AIプロンプト集 ([`/policy-as-code/prompts/ja/`](./policy-as-code/prompts/ja/))**
     *   政策課題の分析、論点の整理、条文案の生成などをAIに支援させるためのプロンプト集。
     *   *[ここにプロンプトの具体的な例や使い方を記述]*
 
@@ -62,4 +67,3 @@ This project aims to realize a "co-creative society" where everyone can particip
 このリポジトリ内のドキュメント、プロンプト、データなどの著作物は、[クリエイティブ・コモンズ 表示-継承 4.0 国際 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja) ライセンスの下で提供されます。
 
 リポジトリに含まれるソースコードについては、将来的に別のオープンソースライセンス（MITなど）が適用される可能性があります。各ディレクトリの `LICENSE` ファイルをご確認ください。
-
