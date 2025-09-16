@@ -1,8 +1,3 @@
-はい、承知いたしました。
-ライセンスセクションを独立させた修正版の全文です。このままコピー＆ペーストしてご利用いただけます。
-
----
-
 # 共創型社会実現プロジェクト - Policy-as-Code
 ### A project to realize a co-creative society through "Policy-as-Code"
 
