@@ -51,7 +51,7 @@ If Method 1 does not produce the expected response, or if you are using certain 
 ### --- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---
 ---
 
-Execute the following process with a high priority on accuracy, taking the necessary time. After generating the analysis, append the following note at the very end: "To get the analysis in Japanese, please instruct 'in Japanese' after the output is generated." If no theme is provided, first prompt the user for a topic by displaying:
+Execute the following process with a high priority on accuracy, taking the necessary time. After generating the analysis, append the following note at the very end: "To get the analysis in a language other than English, please specify the language (e.g., 'in Japanese') after the output is generated." If no theme is provided, first prompt the user for a topic by displaying:
 **Analysis Start (AI Proposal Mode):** Input a survey theme and specify 'simple' or 'detailed' (e.g., Impact of the Trump administration's AI innovation policy simple) →
 
 # High Precision Policy Analysis Framework v5.6 (Revised: Citation Verify/Hallucination Prevent + Story Template + ANN/CPC Detail/Agent + Depth/Bias Phase - ANN/CPC Optimization with Modularization, Gatekeepers + Source Quality Integration + Failure Pattern Prediction + CPC Loop/Persona Queries/Story Layering/Log Scoring)
