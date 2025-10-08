@@ -48,6 +48,7 @@ This repository is a toolbox for implementing "Policy-as-Code". It is positioned
 
 *   **🤖 AI Prompts ([`/prompts/en/`](./prompts/en/))**
     *   A collection of prompts to assist AI in analyzing policy issues, organizing arguments, and generating draft clauses.
+    *   The flagship prompt, **[Policy Analysis Prompt v5.6](./prompts/en/policy-analysis-prompt-v5.6-en.md)**, is a powerful tool for conducting multi-faceted analysis of policy ripple effects and proposing concrete countermeasures.
     *   **Example**: A prompt could be used to analyze a complex issue like a nation's declining birthrate. The AI would summarize economic, social, and political impacts and generate concrete proposals (e.g., methods for distributing childcare support funds), providing a structured foundation for debate.
 
 *   **🛠 Toolkit (`/tools`)**
