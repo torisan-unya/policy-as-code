@@ -1,10 +1,3 @@
-はい、承知いたしました。
-これまでの対話で深まったプロジェクトのビジョンと、次のステージへの意気込みを反映させた、力強く、そして協力者を惹きつけるような英語版の草案を作成します。
-
-日本語版への誘導を最初に配置し、ライセンスのリンクを英語圏のユーザー向けに `deed.en` に変更するなど、細部にも配慮しました。
-
----
-
 # Policy-as-Code: A Framework for a Co-Creative Society
 
 **Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
