@@ -8,7 +8,18 @@
 
 このプロジェクトは、誰もが政策づくりに参加できる「共創型社会」の実現を目指します。そのための革新的なアプローチとして、政策や合意形成のプロセスを、バージョン管理可能で透明性の高い「コード」として扱う **"Policy-as-Code"** の概念を提唱し、その実装を探求します。
 
-(This project aims to realize a "co-creative society" where everyone can participate in policymaking. As an innovative approach, we advocate the implementation of **"Policy-as-Code"**—treating policies as version-controllable, transparent "code.")
+また、人間とAIの共創を探求する研究エコシステム[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)の一部でもあります。
+
+---
+
+### 英語での説明 / English Description
+
+---
+
+The goal of this project is to realize a "co-creative society" in which everyone can participate in policymaking. To this end, we propose the concept of **"Policy-as-Code"**, which treats policies and consensus-building processes as code. This practice renders societal rules version-controlled and fully transparent, allowing anyone to audit the history of changes—who, what, when, and why.
+
+This repository serves as the central hub for this exploration and is part of the **[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)**, a research ecosystem dedicated to advancing Human-AI Collaboration (HAC).
+
 
 ---
 
