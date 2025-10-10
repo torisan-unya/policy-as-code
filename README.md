@@ -2,71 +2,68 @@
 
 **Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
 
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)  
 [![Project Status: Concept](https://img.shields.io/badge/status-concept-blue.svg)](https://github.com/torisan-unya/policy-as-code)
 
 **日本語版 (Japanese version) is available here: [README.ja.md](./README.ja.md)**
 
 ---
 
-This project aims to realize a "co-creative society" where everyone can participate in policymaking. Our innovative approach is **"Policy-as-Code"**: treating policies and consensus-building processes as version-controlled, transparent code. This allows anyone to audit the history of societal rules—who proposed what, when, and why.
-
-This repository serves as the central hub for this exploration and is part of the **[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)**, a research ecosystem dedicated to advancing Human-AI Collaboration (HAC).
+This project pioneers **"Policy-as-Code"**: a paradigm for encoding policies, laws, and agreements as version-controlled, machine-readable code to foster transparent, collaborative governance. As part of the **[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)** ecosystem, it advances Human-AI Collaboration (HAC) for societal decision-making.
 
 ---
 
 ## 📜 The Vision
 
-### Why This Project, Why Now?
+### Why Policy-as-Code, Why Now?
 
-The challenges facing our society are becoming increasingly complex. Yet, the process of debating and deciding on solutions is often confined to a few experts and representatives, remaining distant for most citizens.
+Societal challenges grow more intricate, yet policymaking remains opaque and elite-driven. Policy-as-Code democratizes this process by leveraging Git for auditing changes and AI for impact simulations, enabling collective intelligence.
 
-This project aims to break down that wall.
+- **For Citizens and Activists:** Transform opinions into auditable policy drafts via Git Pull Requests, with AI organizing inputs for equitable participation—e.g., simulating local park rule impacts on community cohesion.
+- **For Engineers and Technologists:** Apply Infrastructure-as-Code principles to governance: version policies, run automated tests for ripple effects, and prevent historical errors through traceable commits.
 
-*   **For Citizens and Activists:**
-    Imagine a new form of democracy where your voice and ideas don't just end as "opinions" but are shaped into concrete "policy drafts" in collaboration with others. We envision a future where powerful tools like AI are in the hands of citizens, enabling collective intelligence to drive society forward. For example, when creating rules for a local park, AI could organize residents' opinions, and everyone could propose revisions via Git.
+Recent research underscores the urgency: Human-AI teams enhance decision-making in complex environments, reducing bias and amplifying diverse voices in policy contexts.
 
-*   **For Engineers and Technologists:**
-    Imagine a world where ambiguous, unstructured policy debates are version-controlled with Git, improvements are proposed via Pull Requests, and impacts are predicted with automated tests. Just as `Infrastructure as Code` revolutionized infrastructure management, `Policy-as-Code` is a grand technical challenge that can revolutionize governance—the operating system of society. For instance, creating a system to track the history of policy changes to prevent past mistakes.
+## 💡 Core Principles of Policy-as-Code
 
-## 💡 What is "Policy-as-Code"?
+Policy-as-Code formalizes rules in human- and machine-readable formats (e.g., YAML or Python), yielding:
 
-**Policy-as-Code** is a method of describing and managing policies, laws, rules, and agreements in a format that is readable by both humans and machines (i.e., code).
+- **Transparency:** `git log` reveals policy evolution—who, when, why.
+- **Collaboration:** Open Pull Requests for iterative refinements.
+- **Verifiability:** AI-driven simulations test outcomes, e.g., economic forecasts via code execution.
+- **Reusability:** Modular policies adaptable across contexts, from community guidelines to national regulations.
 
-This approach creates several key benefits:
+**Caution:** AI outputs require verification against primary sources to mitigate hallucinations; this repo includes debiasing prompts.
 
-*   **Transparency:** Like a `git log`, you can see at a glance who changed a policy proposal, when, and how.
-*   **Collaboration:** Anyone can propose improvements and discuss them in an open forum through `Pull Requests`.
-*   **Reproducibility and Verifiability:** Anyone can trace and verify the logic behind a policy decision, facilitating AI-driven simulations and impact assessments. For example, predicting the impact of a policy numerically to identify potential problems in advance.
-*   **Reusability:** Excellent policy logic and consensus-building patterns can be reused in other regions or communities.
+## 🚀 Repository Contents
 
-**A note of caution:** When using AI, always verify information against reliable sources to avoid hallucinations. This project includes guidelines to minimize such risks.
+This hub offers practical tools for Policy-as-Code adoption, starting small (e.g., community rules) and scaling to institutional use.
 
-## 🚀 What This Repository Provides
+- **🤖 AI Prompts ([`/prompts/en/`](./prompts/en/)):**  
+  Specialized prompts for policy analysis and drafting. The flagship **[Policy Analysis Prompt v5.6](./prompts/en/policy-analysis-prompt-v5.6-en.md)** enables multi-faceted ripple-effect assessments, drawing on causal inference for countermeasures—ideal for debating issues like declining birthrates with economic/social projections.
 
-This repository is a toolbox for implementing "Policy-as-Code". It is positioned as a proposal, and we encourage you to use this framework as a reference for your own practice.
+- **🛠 Toolkit ([`/tools`](./tools)):**  
+  Scripts for structuring policies (e.g., `policy_to_code.py` converts text to JSON for Git management). Install: `pip install -r requirements.txt`. Supports simulations like impact modeling on inequality.
 
-*   **🤖 AI Prompts ([`/prompts/en/`](./prompts/en/))**
-    *   A collection of prompts to assist AI in analyzing policy issues, organizing arguments, and generating draft clauses.
-    *   The flagship prompt, **[Policy Analysis Prompt v5.6](./prompts/en/policy-analysis-prompt-v5.6-en.md)**, is a powerful tool for conducting multi-faceted analysis of policy ripple effects and proposing concrete countermeasures.
-    *   **Example**: A prompt could be used to analyze a complex issue like a nation's declining birthrate. The AI would summarize economic, social, and political impacts and generate concrete proposals (e.g., methods for distributing childcare support funds), providing a structured foundation for debate.
+- **📚 Documentation ([`/docs`](./docs)):**  
+  Tutorials on Git-based consensus-building, e.g., revising online community terms with phased reviews.
 
-*   **🛠 Toolkit (`/tools`)**
-    *   Scripts for converting policy proposals into structured data, visualization tools, etc.
-    *   **Installation**: In a Python environment, run `pip install -r requirements.txt`. For example, the `policy_to_code.py` script converts a text-based policy proposal into JSON format, making it manageable with Git.
+- **🏛️ Use Cases ([`/use-cases`](./use-cases)):**  
+  Real-world examples, such as park rule co-creation: AI analyzes resident inputs, yielding 2x participation gains via simulated outcomes.
 
-*   **📚 Documentation (`/docs`)**
-    *   The project's philosophy, tutorials, and contribution guidelines.
-    *   **Example**: The tutorial explains the steps to create a simple community guideline using Policy-as-Code. We recommend starting with a small group.
+## 🔗 Related Research
 
-*   **🏛️ Use Cases (`/use-cases`)**
-    *   A collection of case studies applying this project to specific policy issues (e.g., creating rules for a local park, revising the terms of an online community).
-    *   **Example for Park Rules**: Gather opinions from residents, analyze impacts with an AI prompt (e.g., the economic effect of adding more playground equipment). Propose changes via Pull Requests to build consensus. Simulated Outcome: A potential 2x increase in community participation.
+For deeper insights:  
+- Securing Agentic AI (arXiv:2504.19956, 2025): Advocates Policy-as-Code for auditable AI governance.  
+- AI in Organizational Change (DOI:10.1108/JOEPP-03-2025-0193, 2025): Explores AI-augmented policy decisions.  
+- Human-Machine Teaming (DOI:10.1080/02684527.2025.2565945, 2025): Frameworks for collaborative governance.
+
+## 🤝 Get Involved
+
+Fork this repo, propose a Pull Request, or join discussions. Start with a simple policy draft—contribute to a co-creative future.
 
 ---
 
 ## ⚖️ License
 
-The creative works in this repository, such as documents, prompts, and data, are provided under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license.
-
-Source code included in the repository may be subject to a different open-source license (such as MIT) in the future. Please check the `LICENSE` file in each directory.
+Creative works (documents, prompts, data) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). Code may adopt MIT; see per-directory `LICENSE` files.
