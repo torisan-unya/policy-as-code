@@ -1,8 +1,8 @@
 # 共創型社会実現プロジェクト - Policy-as-Code
 
-**Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
+Authored by Torisan Unya (Independent Researcher, ORCID: [0009-0004-7067-9765](https://orcid.org/0009-0004-7067-9765)). 
+Licensed under **MIT + Patent License Addendum** (see [License](#license)).
 
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 [![Project Status: Concept](https://img.shields.io/badge/status-concept-blue.svg)](https://github.com/torisan_unya/policy-as-code)
 
 このプロジェクトは、誰もが政策づくりに参加できる「共創型社会」の実現を目指します。そのための革新的なアプローチとして、政策や合意形成のプロセスを、バージョン管理可能で透明性の高い「コード」として扱う **"Policy-as-Code"** の概念を提唱し、その実装を探求します。
